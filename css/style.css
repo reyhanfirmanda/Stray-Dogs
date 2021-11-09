@@ -18,6 +18,7 @@
 /*--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
  * {
      box-sizing: border-box !important;
+    
 }
 ::placeholder {
    opacity: 1 !important;
@@ -32,11 +33,11 @@ a:hover {
  body {
      color: #666666;
      font-size: 14px;
-     font-family: 'poppins', sans-serif;
+     font-family: 'Aleo', serif;
      line-height: 1.80857;
      font-weight: normal;
      overflow-x: hidden;
-     /* background-color: #f5f5f5; */
+     background-color: #f5f5f5;
 }
  a {
      color: #1f1f1f;
@@ -266,7 +267,7 @@ p {
     padding: 0;
     float: left;
     font-size: 20px;
-    font-weight: 300;
+    font-weight: bold;
     border-radius: 0;
     margin-right: 0;
     width: 220px;
@@ -286,6 +287,7 @@ p {
 .button_section {
     padding-top: 185px;
     float: left;
+    /* box-shadow: 5px 10px #888888; */
 }
 /**-- list icon --**/
  .ul_list_info_icon ul {
@@ -390,7 +392,7 @@ p {
 }
 /*--------------------------------------------------------------------- header area ---------------------------------------------------------------------*/
 .header {
-    background: #fff;
+    background: #f5f5f5;
     padding: 21px 0px;
     border-top: solid #FEE9D6 23px;
     position: relative;
@@ -402,7 +404,7 @@ p {
     height: 30px;
     position: absolute;
     right: -15px;
-    background: #fff;
+    background: #f5f5f5;
     top: -30px;
     transform: skew(-30deg);
 }
@@ -908,9 +910,9 @@ p {
 .main-menu ul > li a {
     padding: 15px 40px;
     line-height: 20px;
-    font-size: 20px;
+    font-size: 18px;
     display: block;
-    font-weight: 400;
+    font-weight: bold;
     color: #3a3838;
 }
  .main-menu ul li:last-child a {
@@ -1165,7 +1167,7 @@ p {
     top: 0;
     right: -370px;
     content: "";
-    background: #fff;
+    background: #f5f5f5;
     display: block;
     height: 100%;
     transform: skew(50deg);
@@ -1176,7 +1178,7 @@ p {
     bottom: 0;
     right: 0px;
     content: "";
-    background: #fff;
+    background: #f5f5f5;
     display: block;
     height: 90px;
 }
@@ -1981,14 +1983,25 @@ footer button {
 
     background: #E59E82;
     color: #e5e5e5;
-    width: 95px;
+    width: 180px;
     height: 48px;
 
 }
 
 .hashtag {
     color: #ECA766;
+    font-family: 'Handlee', cursive;
 }
 
 
- 
+p {
+    font-weight: 500;
+}
+
+.ganti-font p {
+    font-family: 'Handlee', cursive;
+    font-size: 20px;
+    color: #323232;
+    letter-spacing: 1.75%;
+    line-height:32px;
+}
